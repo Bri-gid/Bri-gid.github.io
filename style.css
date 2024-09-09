@@ -4,3 +4,30 @@ body{
     margin: 3rem 5%;
 }
 
+body > header{
+    display:flex;
+    height:12vh;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display:flex;
+}
+
+#nav-ul > li{
+    padding: 8px;
+    margin: 16px;
+}
+
+body>header>nav>ul{
+    list-style: none;
+    text-transform: none;
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
