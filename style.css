@@ -4,6 +4,11 @@ body{
     margin: 3rem 5%;
 }
 
+
+h1{
+    font-size: 3rem;
+}
+
 h2{
     font-size: 2rem;
 }
@@ -14,9 +19,9 @@ header > img {
     margin-right: auto;
     max-width: 10%;
     height: auto;
+
+
 }
-
-
 
 nav{
     background-color: #24847C;
