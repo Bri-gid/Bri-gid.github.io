@@ -4,10 +4,29 @@ body{
     margin: 3rem 5%;
 }
 
+h2{
+    font-size: 2rem;
+}
+header > img {
+    display: block;
+    margin: 0 auto;
+    margin-right: auto;
+    max-width: 10%;
+    height: auto;
+
+
+}
+
 body > header{
     display:flex;
     height:12vh;
     justify-content: space-around;
+}
+
+nav{
+    background-color: #24847C;
+    border-radius: 40px;
+    width: 100%
 }
 
 #nav-ul{
@@ -30,4 +49,42 @@ body>header>nav>ul{
     padding: 12px;
     border: 1px solid white;
     border-radius: 10%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+article{
+    flex:1;
+}
+
+footer{
+    flex: 1;
+}
+
+
+#banner {
+    position: relative;
+    background: url('garden.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    
+}
+
+#banner-text {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
 }
