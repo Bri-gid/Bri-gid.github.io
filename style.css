@@ -29,27 +29,33 @@ nav{
     width: 100%
 }
 
-nav ul {
+body > header {
+    display: flex;
+    height: 12vh;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display:flex;
+}
+
+#nav-ul>li{
+    padding: 8px;
+    margin:16px;
+
+}
+
+body > header > nav > ul{
     list-style: none;
-    text-align: center;
-
-    
+    text-align: none;
 }
 
-nav li{
-    display :inline-block;
-    margin: 10px 20px; 
-}
-
-#navbar ul li a{
+.navbutton{
     color:white;
     text-decoration: none;
-    
-}
-
-
-#navbar ul li{
-    margin-right: 20px;
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    border-radius:10%;
 }
 
 
