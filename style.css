@@ -4,11 +4,6 @@ body{
     margin: 3rem 5%;
 }
 
-
-h1{
-    font-size: 3rem;
-}
-
 h2{
     font-size: 2rem;
 }
@@ -19,46 +14,39 @@ header > img {
     margin-right: auto;
     max-width: 10%;
     height: auto;
-
-
 }
+
+
 
 nav{
     background-color: #24847C;
     border-radius: 40px;
-    width: 100%;
+    width: 100%
 }
 
-header > nav > ul {
+nav ul {
     list-style: none;
     text-align: center;
 
     
 }
 
-header> nav > ul > li{
+nav li{
     display :inline-block;
     margin: 10px 20px; 
 }
 
-#navbar > ul > li > a{
+#navbar ul li a{
     color:white;
     text-decoration: none;
     
 }
 
 
-#navbar > ul > li{
+#navbar ul li{
     margin-right: 20px;
 }
-body > header {
-    display: flex;
-    height: 12vh;
-    justify-content: space-around;
-}
-#main-header{
-    display: flex;
-}
+
 
 section{
     display: flex;
