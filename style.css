@@ -37,33 +37,6 @@ body > header {
 #main-header{
     display: flex;
 }
-#nav-ul{
-    display:flex;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-
-    
-}
-
-nav li{
-    display :inline-block;
-    margin: 10px 20px; 
-}
-
-#navbar ul li a{
-    color:white;
-    text-decoration: none;
-    
-}
-
-
-#navbar ul li{
-    margin-right: 20px;
-}
-
 
 section{
     display: flex;
