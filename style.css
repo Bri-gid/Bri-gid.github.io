@@ -41,23 +41,27 @@ body > header {
     display:flex;
 }
 
-#nav-ul>li{
-    padding: 8px;
-    margin:16px;
-
-}
-
-body > header > nav > ul{
+nav ul {
     list-style: none;
-    text-align: none;
+    text-align: center;
+
+    
 }
 
-.navbutton{
+nav li{
+    display :inline-block;
+    margin: 10px 20px; 
+}
+
+#navbar ul li a{
     color:white;
     text-decoration: none;
-    padding: 12px;
-    border: 1px solid whitesmoke;
-    border-radius:10%;
+    
+}
+
+
+#navbar ul li{
+    margin-right: 20px;
 }
 
 
